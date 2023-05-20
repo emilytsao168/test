@@ -7,12 +7,14 @@
 給定⼀張圖⼤⼩是200\*60像素，辨識圖中的數字(0~9)及運算⼦(加+/減-/乘\*)，共9個字元，輸出數學運算結果(整數)。
       
 ![p0](https://github.com/emilytsao168/test/assets/117272534/1ba33342-8f46-4319-8dba-818b411a2798)
-### 標籤
+### 標籤     
 由「train_data01.csv」中匯入每張圖片的標籤，其中的格式為「0	6 0 4 5 4 - 5 + 8 =	60457」
 ---
 ## 降噪
-透過dealImg(path)進行圖片的降噪。
-![下載](https://github.com/emilytsao168/test/assets/117272534/dbaa8a33-6630-4dae-bcd7-58fd2af85026)
+透過dealImg(path)進行圖片的降噪。      
+
+![下載](https://github.com/emilytsao168/test/assets/117272534/dbaa8a33-6630-4dae-bcd7-58fd2af85026)      
+
 ```python     
 def dealImg(path):
     # 獲取圖片img物件
