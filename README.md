@@ -190,7 +190,7 @@ ________________________________________________________________________________
 ```python
 hist = model.fit(train_feature, train_label, batch_size=128, epochs=100, verbose=2, validation_data=(test_feature, test_label), validation_split=0.2)
 ```
-訓練準確度：
+模型訓練準確度：
 ```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -209,7 +209,7 @@ plt.show()
 載入先前訓練好的模型並且進行預測。     
 透過calculate_expression(nums,count)進行結果的運算。     
 最後將運算結果存入csv檔中。     
-```
+```python
 import sys
 # 設置整數轉換的最大位數
 sys.set_int_max_str_digits(5000000) 
